@@ -16,9 +16,23 @@ public class HelloControllerTest {
     private MockMvc mockMvc;
 
     @Test
+    public void testWelcomeEndpoint() throws Exception {
+        mockMvc.perform(get("/api"))
+               .andExpect(status().isOk())
+               .andExpect(content().string("Welcome to Springboot app"));
+    }
+
+    @Test
     public void testHelloEndpoint() throws Exception {
         mockMvc.perform(get("/api/hello"))
                .andExpect(status().isOk())
                .andExpect(content().string("Hello, Cursor Project!"));
+    }
+
+    @Test
+    public void testStatusEndpoint() throws Exception {
+        mockMvc.perform(get("/api/status"))
+               .andExpect(status().isOk())
+               .andExpect(content().string("Application is running successfully"));
     }
 } 

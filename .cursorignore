@@ -22,4 +22,11 @@ dist/
 # Temporary files
 *.tmp
 *.bak
-*.swp 
+*.swp
+
+# Maven specific
+mvnw
+mvnw.cmd
+
+# IDE specific
+*.iml 
