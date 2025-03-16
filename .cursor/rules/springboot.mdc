@@ -1,0 +1,9 @@
+---
+description: This rule is for springboot application
+globs: 
+---
+
+# SPRINGBOOT project rules
+
+- Use java version 21
+

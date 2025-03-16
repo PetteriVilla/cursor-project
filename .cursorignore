@@ -1,0 +1,25 @@
+# Maven
+target/
+*.class
+
+# Environment files
+.env*
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp 
