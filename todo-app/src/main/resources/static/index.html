@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+        }
+        .endpoints {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Todo Application</h1>
+    <div class="endpoints">
+        <h2>Available API Endpoints:</h2>
+        <ul>
+            <li><strong>GET /api/todos</strong> - Retrieve all todos</li>
+            <li><strong>GET /api/todos/{id}</strong> - Retrieve a specific todo</li>
+            <li><strong>POST /api/todos</strong> - Create a new todo</li>
+            <li><strong>PUT /api/todos/{id}</strong> - Update an existing todo</li>
+            <li><strong>DELETE /api/todos/{id}</strong> - Delete a todo</li>
+        </ul>
+    </div>
+</body>
+</html> 
